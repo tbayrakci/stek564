@@ -1,0 +1,6 @@
+experiment_name: "Off-Policy Evaluation (FQE)"
+batch_size: 256
+learning_rate: 0.001
+epochs: 15
+hidden_dim: 256
+gamma: 0.99

@@ -1,0 +1,9 @@
+experiment_name: "Inverse RL - Preference Based Reward Model"
+batch_size: 256
+learning_rate: 0.001
+reward_epochs: 15
+iql_epochs: 50
+hidden_dim: 256
+expectile: 0.8
+temperature: 3.0
+gamma: 0.99

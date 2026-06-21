@@ -1,0 +1,8 @@
+experiment_name: "Implicit Q-Learning"
+batch_size: 256
+learning_rate: 0.001
+epochs: 50
+hidden_dim: 256
+gamma: 0.99
+expectile: 0.8
+temperature: 3.0

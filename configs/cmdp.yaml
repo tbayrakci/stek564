@@ -1,0 +1,9 @@
+experiment_name: "Safe RL - Constrained MDP"
+lambda_penalty: 10.0  # Tatlı nokta (sweet spot) olarak test ettiğimiz en iyi değer
+batch_size: 256
+learning_rate: 0.001
+epochs: 50
+hidden_dim: 256
+expectile: 0.8
+temperature: 3.0
+gamma: 0.99
