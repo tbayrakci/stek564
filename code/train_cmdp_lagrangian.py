@@ -9,7 +9,7 @@ from drone_dispatch_env import load_offline_dataset, evaluate, Config
 
 # --- ABLASYON İÇİN HİPERPARAMETRELER ---
 # Rapordaki eğriyi çizmek için bu değeri 0.0, 10.0 ve 50.0 yaparak 3 kez çalıştıracağız
-LAMBDA_PENALTY = 0.0  
+LAMBDA_PENALTY = 50.0  
 
 BATCH_SIZE = 256
 LEARNING_RATE = 1e-3
